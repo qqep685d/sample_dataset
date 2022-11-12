@@ -1,0 +1,40 @@
+{
+	"version": "2.13.5",
+	"showSampleNames": false,
+	"reference": {
+		"fastaURL": "https://raw.githubusercontent.com/qqep685d/sample_dataset/main/qtlseq/rice_chr6_1_15Mb.fa",
+		"indexURL": "https://raw.githubusercontent.com/qqep685d/sample_dataset/main/qtlseq/rice_chr6_1_15Mb.fa.fai"
+	},
+	"locus": "chr6:1-10,029",
+	"roi": [],
+	"tracks": [
+		{
+			"type": "sequence",
+			"order": -9007199254740991
+		},
+		{
+			"url": "https://raw.githubusercontent.com/qqep685d/sample_dataset/main/qtlseq/S_bulk.sample.bam",
+			"name": "S_bulk.sample.bam",
+			"indexURL": "https://raw.githubusercontent.com/qqep685d/sample_dataset/main/qtlseq/S_bulk.sample.bam.bai",
+			"derivedName": true,
+			"format": "bam",
+			"type": "alignment",
+			"alleleFreqThreshold": 0.2,
+			"displayMode": "EXPANDED",
+			"viewAsPairs": true,
+			"order": 4
+		},
+		{
+			"url": "https://raw.githubusercontent.com/qqep685d/sample_dataset/main/qtlseq/R_bulk.sample.bam",
+			"name": "R_bulk.sample.bam",
+			"indexURL": "https://raw.githubusercontent.com/qqep685d/sample_dataset/main/qtlseq/R_bulk.sample.bam.bai",
+			"derivedName": true,
+			"format": "bam",
+			"type": "alignment",
+			"alleleFreqThreshold": 0.2,
+			"displayMode": "EXPANDED",
+			"viewAsPairs": true,
+			"order": 4
+		}
+	]
+}
